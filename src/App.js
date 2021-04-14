@@ -27,7 +27,7 @@ require('echarts/lib/chart/pie');
 
 
 function App() {
-    //页头时间
+    //页头时间 -
     const [nowTime, setNowTime] = useState(dayjs().format("HH:mm"));
     const [nowTimeTrigger, setNowTimeTrigger] = useState(dayjs().format("HH:mm:ss"));
     const [nowDate, setNowDate] = useState(dayjs().format("YYYY/MM/DD dddd"));
