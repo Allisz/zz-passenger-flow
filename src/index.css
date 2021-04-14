@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/*文本超出部分显示省略号*/
+.textOverflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*flex*/
+.flex {
+  display: flex;
+}
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*font*/
+@font-face {
+  font-family: AlibabaPuHuiTiR;
+  src: url("resources/ttf/AlibabaPuHuiTi/Alibaba-PuHuiTi-Regular.ttf");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiM;
+  src: url("resources/ttf/AlibabaPuHuiTi/Alibaba-PuHuiTi-Medium.ttf");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiB;
+  src: url("resources/ttf/AlibabaPuHuiTi/Alibaba-PuHuiTi-Bold.ttf");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiL;
+  src: url("resources/ttf/AlibabaPuHuiTi/Alibaba-PuHuiTi-Light.ttf");
+}
+
+@font-face {
+  font-family: AlibabaPuHuiTiH;
+  src: url("resources/ttf/AlibabaPuHuiTi/Alibaba-PuHuiTi-Heavy.ttf");
+}
+
+@font-face {
+  font-family: PangMenZhengDao;
+  src: url("resources/ttf/PangMenZhengDaoBiaoTiTi-1.ttf");
+}
